@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    
+}
+
+/* navbar section */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+
+}
+.navbar ul{
+    display: flex;
+    margin: 20px;
+    list-style: none;
+}
+
+.navbar ul li{
+    font-size: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 40px;
+    color: snow;
+}
+.navbar ul li a:hover{
+    color: rgb(3, 3, 3);
+    text-shadow: 3px 4px 6px white;
+}
+
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 850px;
+    justify-content: center;
+    align-items: center;
+    color:rgb(10, 10, 10);
+} 
+#home::before{ 
+    content: "";
+    position: absolute;
+    background-image: url('https://cricketaddictor.com/wp-content/uploads/2021/03/Sachin-Tendulkar-6.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 850px; 
+    width: 100%; 
+    color: black;
+    
+}
+
+#intro{
+    background-color:black;
+    
+    
+}
+
+#intro h1{
+    color: #ebe2e2;
+    font-size: 40px;
+}
+#intro p{
+    color: aliceblue;
+}
+h1{
+    text-align: left;
+}
+.main{
+
+    border: 1px solid white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column; 
+    position: absolute;
+    align-items: center;
+    left: 20%;
+    top: 30%;
+    
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px;
+    background-color:black;
+    color: rgb(221, 209, 209);
+}
+
+
+ body{
+    background-color:black;
+} 
+#video h1{
+    color: aliceblue;
+    font-size: 30px;
+}
+#awards h1{
+    color: aliceblue;
+    font-size: 30px;
+}
+#pic{
+    display: flex;
+    
+}
+#pic img{
+    width: 575px;
+    height: 400px; 
+    border: 3px solid black;
+    margin: 20px;
+}
+#video{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    align-items: center;
+    padding: 20px;
+}
+.awrd{
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery img{
+    width: 360px;
+    height: 250px;
+    margin: 10px;
+}
+.gallery img:hover{
+    width: 380px;
+    transition: 0.6s;
+}
+.map{
+    background-color:black;
+    ;
+}
+.mp{
+    text-align: center;
+    background-color: black;
+    
+}
+.kkk{
+    background-color:black;
+    margin-left: 400px;
+}
+
+#map h1{
+    color: aliceblue;
+    font-size: 30px;
+}
+#works h1{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.iii{
+    margin-left: 300px;
+}
